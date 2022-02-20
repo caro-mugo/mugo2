@@ -1,12 +1,30 @@
-fun main(){
-    var studentName:String="caroline nyambura mugo"
-    println(studentName)
-    var age:Int=22
-    println(age)
-    var phoneNumber:String="0729284253"
-    println(phoneNumber)
-    var weight=76
-    println(weight)
-    val kenyan:Boolean=true
-    println(kenyan)
+fun main() {
+    printName("Caroline")
+    var result= GetReminder(9,4)
+    println(result)
+    var sum=GetSum(4,6,2,5)
+    println(sum)
+    funFact("researching")
+
+
+}
+
+
+
+
+fun printName(name:String){
+    println("Hello" + " " + name)
+}
+
+fun GetReminder(num1:Int,num2:Int):Int{
+    var modulus=num1 % num2
+    return modulus
+}
+
+fun GetSum(a:Int,b:Int,c:Int,d:Int):Int{
+    var sum=a+b+c+d
+    return sum
+}
+fun funFact(fact:String){
+    println("i enjoy" +" " + fact)
 }
