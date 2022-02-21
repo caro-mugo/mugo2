@@ -1,5 +1,5 @@
 fun main() {
-    printName("Caroline mugo")
+    printName("Caroline")
     var result= GetReminder(9,4)
     println(result)
     var sum=GetSum(4,6,2,5)
